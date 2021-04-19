@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "serviceBus": {
+      //"prefetchCount": 100,
+      "messageHandlerOptions": {
+        "maxAutoRenewDuration": "00:30:00",
+        "autoComplete": false
+      }
+    }
+    //"logging": {
+    //  "fileLoggingMode": "always",
+    //  "logLevel": {
+    //    "default": "Error",
+    //    "Host.Results": "Error",
+    //    "Function": "Error",
+    //    "Host.Aggregator": "Error"
+    //  }
+    //}
+  }
+}
